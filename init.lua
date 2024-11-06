@@ -8,9 +8,14 @@ require('lsp.tex')
 
 -- file specific settings
 vim.cmd[[ filetype plugin indent on ]]
+vim.cmd[[ set tabstop=4 ]]
+vim.cmd[[ set shiftwidth=4 ]]
+vim.cmd[[ set expandtab ]]
 require('filetype.py')
 require('filetype.c')
 require('filetype.tex')
+require('filetype.lua')
+require('filetype.markdown')
 
 -- vim defaults
 vim.cmd[[ set regexpengine=2 ]]
