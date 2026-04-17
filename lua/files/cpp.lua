@@ -1,4 +1,4 @@
-require('lspconfig').clangd.setup{}
+vim.lsp.enable("clangd")
 
 vim.cmd[[ autocmd FileType c setlocal tabstop=2 ]]
 vim.cmd[[ autocmd FileType c setlocal shiftwidth=2 ]]

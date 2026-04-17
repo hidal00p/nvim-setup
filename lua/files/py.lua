@@ -1,4 +1,4 @@
-require("lspconfig").pyright.setup{}
+vim.lsp.enable("pyright")
 
 vim.cmd[[ autocmd FileType python setlocal tabstop=4 ]]
 vim.cmd[[ autocmd FileType python setlocal shiftwidth=4 ]]

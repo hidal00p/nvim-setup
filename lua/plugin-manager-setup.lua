@@ -19,6 +19,7 @@ require("lazy").setup({
   spec = {
     {"nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate"},
     { "rebelot/kanagawa.nvim" },
+    { "sainnhe/everforest" },
     { "neovim/nvim-lspconfig" },
     { 
       "nvim-telescope/telescope.nvim",
